@@ -1,0 +1,10 @@
+apiVersion: solution.sap/v1
+kind: Solution
+
+metadata:
+  name: feedback-classification-4a831
+  version: 2.0.0
+  description: AI agent that classifies customer feedback as positive, negative, or neutral with reasoning and confidence level
+
+assets:
+  - ref: ./assets/feedback-classification-agent/asset.yaml
